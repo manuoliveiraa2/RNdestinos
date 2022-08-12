@@ -1,0 +1,73 @@
+@charset "uff-8";
+/* css Documento */
+
+*{
+ 
+    padding: 0 ;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+}
+.container{
+    display: flax;
+}
+h1 { /* fonte */
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+    min-height: 1cm;  /* espaço entre o titulo*/
+}
+
+p{
+  font-size: 15px;
+  margin: 40px;
+  margin-left: 40px; /* margem esquerda*/
+  margin-right: 40px; /* margem direita*/
+  text-indent: 0px; /* espaço entre o paragrafos*/
+  /*text-align: justify;*/
+  display: inline-block;
+  text-align: left;
+
+}
+
+body{  /*fonte do texto*/
+       font-weight: 200;
+       font-family:Arial
+
+
+}
+ #topo {
+}
+  #topo {
+
+    background-color: #0E2451;
+     width: 36cm;
+     height: 15px;
+     margin:0 auto;
+     padding: 15px;
+     text-align: left;
+
+}
+ .nav{
+    background-color: #0E2451;
+    width: 36cm;
+    margin: 0auto;
+    padding: 15px;
+    text-align: right;
+}
+
+ .nav li{ /*  Letra da  faixa*/
+    font-size: 25 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    ;
+    margin: 0 40px;    /* tamanha entre as palavras da faixa*/
+    display: inline
+}
+
+.nav li a{ /* cor da fonte */
+
+    color: cornsilk;
+}
+
+.nav li a:hover{ /* efeito do butão */
+    color:#808080 ;
