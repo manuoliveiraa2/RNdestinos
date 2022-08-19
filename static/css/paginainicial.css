@@ -1,0 +1,71 @@
+@charset "uff-8";
+/* css Documento */
+
+
+*{
+ 
+    padding: 0 ;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+
+}
+
+h1 { /* fonte */
+   
+    min-height: 2cm;  /* espaço entre o titulo*/   
+}
+
+
+body{ /* fonte do texto*/
+        font-weight: 200;
+        font-family:Arial 
+
+}
+
+ #topo {
+    
+    background-color: #0E2451;
+     width: 36cm;
+     height: 17px;
+     margin:0 auto;
+     padding: 15px;
+     text-align: left;  
+
+}
+ .nav{
+    background-color: #0E2451;
+    width: 36cm;
+    margin: 0auto;
+    padding: 15px;
+    text-align: right; 
+}
+
+ .nav li{ /*  Letra da  faixa*/
+    font-size: 25 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    ;
+    margin: 0 30px;    /* tamanha entre as palavras da faixa*/
+    display: inline  
+}
+
+.nav li a{ /* cor da fonte */
+
+    color: cornsilk;
+
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.coluna{
+  float: left;
+  width: 50%;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
