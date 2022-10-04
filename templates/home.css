@@ -1,0 +1,41 @@
+/*BARRA DE NAVEGAÇÃO*/
+.imgbar{
+	width:75px;
+}
+.nav-link{
+	margin-right: 20px;
+}
+
+/*IMAGENS*/
+.text{
+	font-family: roboto;
+	font-size: 12px;
+}
+.tDesc{
+	margin-top: 8%;
+}
+.images{
+	margin: 5% 0 2% 0;
+}
+.bga{
+	background-color: #0E2451;
+}
+.col-sm-6{
+	margin: 4% 0 0 0;
+}
+.info{
+	margin-top: -22%;
+}
+.img1,.img2,.img3,.img4{
+	text-shadow: 1px 0px 0px #daa520;
+}
+.jumbotron{
+	margin: 2% 0 0 0;
+	border: 4px ridge #5f79a6;
+}
+
+/* Footer */
+.foot{
+	margin-top: 10%;
+	padding: 40px 0px 20px 0px;
+}
