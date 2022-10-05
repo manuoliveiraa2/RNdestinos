@@ -1,3 +1,3 @@
 # RNdestinos2
 
-Projeto de sistema de agendamentos para Guias turísticos de Passa e Fica - RN.
+Site de agendamento/reserva de viagens, destinado à empresas que ainda não utilizam sistemas web.
