@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		<!-- Garante a renderizaçãoo adequada e o zoom de toque -->
+		
+		<title>RNviagens</title>													<!-- Título a ficar na aba do navegador -->
+		<link rel="icon" href="midia/iconAba.png" type="image/png" sizes="16x16">	<!-- Imagem do título da página -->
+		
+		<!-- Links para BootStrap e CSS -->
+		<link rel="stylesheet" type="text/css" href="home.css"/>					<!-- Link para acesso ao arquivo de formatação CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Links para fontes de texto -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	</head>
+	
+	<body>
+    
+		<!-- BARRA DE NAVEGAÇãO -->
+		<nav class="bga navbar navbar-expand-sm navbar-dark font-weight-bold">
+			<a class="navbar-brand">
+				<img class="imgbar" src="midia/iconNavBar.png" alt="Logo">
+			</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
+				<ul class="navbar-nav">
+					<li><a class="nav-link text-light font-weight-normal" href="home.html">PÁGINA INICIAL</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="sobre.html">SOBRE</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="contato.html">CONTATO</a></li>
+                    <li><a class="nav-link text-light font-weight-normal" href="login.html">LOGIN</a></li>
+				</ul>
+			</div>  
+		</nav
+
+        <div class="row align-items-center h-100 ">
+            <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+                <form class="form" method="post">
+                    <img class="row mx-auto" src="https://i.imgur.com/RhJpe7c.png" width="150">
+                    <div class="form-group ">
+                        <input type="text" placeholder="Email" class="form-control i-form">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control i-form">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-dark btn-md btn-block">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+
+    </body>
+
